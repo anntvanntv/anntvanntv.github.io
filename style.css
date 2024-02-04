@@ -6,109 +6,77 @@
     --offBlack: hsl(0, 0%, 8%);
 }
 
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    max-width: 100%;
+}
+
 
 
 body {
-
     background-color: var(--offBlack);
     color: var(--white);
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    height:100vh;
     font-family: Inter;
+}
+
 
 .container {
-
     background-color: var(--darkGrey);
-    margin: 10px 700px 10px 753px;
-    margin-top: 64px;
-    padding: 25px 0;
-    border-radius: 12px;
-    margin-right: 700px;
-    margin-left: 700px;
+    height: 694px;
+    width: 439px;
+    padding:20px 15px 73px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
-
-/*
-@media ( min-width: 768px ){
-    .container {
-        margin: 10px 700px 10px 753px;
-        margin-top: 64px;
-        margin-right: 700px;
-        margin-left: 700px;
-
-    }
-}
-
-@media ( min-width:480px ){
-    .container {
-        margin-right: 100px;
-        margin-left: 100px;
-    }
-
-} 
-
-*/
-
 
 img {
-
     border-radius: 85px;
 }
 
-header h1{
-
-    font-family: Inter;
-    font-weight: 700;
-}
-
-header span {
-
-    font-family: Inter;
-    font-weight: 700;
-    font-size: 15px;
+h3 {
     color: var(--green);
-}
-    
-
-}
-
- a {
-    text-decoration: none;
-    font-size: 14px;
-    color: var(--white);
+    margin-top: 2px;
+   margin-bottom: 27px;
 }
 
-ul {
-
-    list-style-type:none;
-    margin-right: 40px;
+p {
+    margin-bottom: 26px;
 }
 
 
-ul li {
-    
-    padding-block: 25px;
-    background-color: grey;
-    border-radius: 7px;
-    align-content: center;
-    font-weight: 700;
-    font-size: 20px;
+button {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  height: 52px;
+  width: 360px;
+  background-color: var(--grey);
+  color:var(--white);
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  text-decoration-line: none;
+  padding-top: 15px;
+  border-radius: 7px;
 }
 
-.uno, .dos, .tres, .cuatro {
-
-    margin-bottom: 10px;
-}
-
-
-li:hover {
-
+button:hover {
     background-color: var(--green);
-   
-    
+    text-decoration-line: none;
+    color: var(--darkGrey);
 }
 
-a:hover {
-
-    color: var(--grey);
+a {
+    text-decoration: none;
 }
 
 
